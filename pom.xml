@@ -30,7 +30,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>JenkinsAutomation.Main</mainClass>
+          <mainClass>JenkinsAutomation.JenkinsAutomation.Main</mainClass>
         </configuration>
       </plugin>
       
