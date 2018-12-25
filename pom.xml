@@ -27,6 +27,10 @@
             <goals>
               <goal>java</goal>
             </goals>
+            <configuration>
+                    <mainClass>JenkinsAutomation.Main</mainClass>
+                    <classpathScope>test</classpathScope>
+                </configuration>
           </execution>
         </executions>
 
