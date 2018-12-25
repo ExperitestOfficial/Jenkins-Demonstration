@@ -29,9 +29,7 @@
             </goals>
           </execution>
         </executions>
-        <configuration>
-          <mainClass>JenkinsAutomation.JenkinsAutomation.Main</mainClass>
-        </configuration>
+
       </plugin>
       
 
