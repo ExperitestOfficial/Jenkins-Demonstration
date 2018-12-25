@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MySuite" duration-ms="345208" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:57:53Z">
+    <groups>
+    </groups>
+    <test name="Automation - Chrome - 0" duration-ms="20052" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:52:27Z">
+      <class name="JenkinsAutomation.DesktopWebTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:JenkinsAutomation.DesktopWebTest@4b6995df]" name="setUp" is-config="true" duration-ms="7038" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testExperitest()[pri:0, instance:JenkinsAutomation.DesktopWebTest@4b6995df]" name="testExperitest" duration-ms="12703" started-at="2018-12-25T08:52:14Z" finished-at="2018-12-25T08:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExperitest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:JenkinsAutomation.DesktopWebTest@4b6995df]" name="tearDown" is-config="true" duration-ms="308" started-at="2018-12-25T08:52:27Z" finished-at="2018-12-25T08:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JenkinsAutomation.DesktopWebTest -->
+    </test> <!-- Automation - Chrome - 0 -->
+    <test name="Automation - iOS - 0" duration-ms="52412" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:53:00Z">
+      <class name="JenkinsAutomation.IOSTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:JenkinsAutomation.IOSTest@233c0b17]" name="setUp" is-config="true" duration-ms="29005" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="quickStartiOSNativeDemo()[pri:0, instance:JenkinsAutomation.IOSTest@233c0b17]" name="quickStartiOSNativeDemo" duration-ms="19195" started-at="2018-12-25T08:52:36Z" finished-at="2018-12-25T08:52:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickStartiOSNativeDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:JenkinsAutomation.IOSTest@233c0b17]" name="tearDown" is-config="true" duration-ms="4211" started-at="2018-12-25T08:52:56Z" finished-at="2018-12-25T08:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JenkinsAutomation.IOSTest -->
+    </test> <!-- Automation - iOS - 0 -->
+    <test name="Automation - Android - 0" duration-ms="33151" started-at="2018-12-25T08:52:28Z" finished-at="2018-12-25T08:53:01Z">
+      <class name="JenkinsAutomation.AndroidTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:JenkinsAutomation.AndroidTest@34340fab]" name="setUp" is-config="true" duration-ms="17749" started-at="2018-12-25T08:52:28Z" finished-at="2018-12-25T08:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="quickStartAndroidNativeDemo()[pri:0, instance:JenkinsAutomation.AndroidTest@34340fab]" name="quickStartAndroidNativeDemo" duration-ms="11468" started-at="2018-12-25T08:52:45Z" finished-at="2018-12-25T08:52:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickStartAndroidNativeDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:JenkinsAutomation.AndroidTest@34340fab]" name="tearDown" is-config="true" duration-ms="3933" started-at="2018-12-25T08:52:57Z" finished-at="2018-12-25T08:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JenkinsAutomation.AndroidTest -->
+    </test> <!-- Automation - Android - 0 -->
+    <test name="Automation - iOS - 1" duration-ms="57970" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:53:05Z">
+      <class name="JenkinsAutomation.IOSTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:JenkinsAutomation.IOSTest@47fd17e3]" name="setUp" is-config="true" duration-ms="33953" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="quickStartiOSNativeDemo()[pri:0, instance:JenkinsAutomation.IOSTest@47fd17e3]" name="quickStartiOSNativeDemo" duration-ms="20626" started-at="2018-12-25T08:52:41Z" finished-at="2018-12-25T08:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickStartiOSNativeDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:JenkinsAutomation.IOSTest@47fd17e3]" name="tearDown" is-config="true" duration-ms="3391" started-at="2018-12-25T08:53:02Z" finished-at="2018-12-25T08:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JenkinsAutomation.IOSTest -->
+    </test> <!-- Automation - iOS - 1 -->
+    <test name="Automation - Safari - 0" duration-ms="72175" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:53:20Z">
+      <class name="JenkinsAutomation.DesktopWebTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:JenkinsAutomation.DesktopWebTest@326de728]" name="setUp" is-config="true" duration-ms="60663" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testExperitest()[pri:0, instance:JenkinsAutomation.DesktopWebTest@326de728]" name="testExperitest" duration-ms="11424" started-at="2018-12-25T08:53:08Z" finished-at="2018-12-25T08:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExperitest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:JenkinsAutomation.DesktopWebTest@326de728]" name="tearDown" is-config="true" duration-ms="87" started-at="2018-12-25T08:53:20Z" finished-at="2018-12-25T08:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JenkinsAutomation.DesktopWebTest -->
+    </test> <!-- Automation - Safari - 0 -->
+    <test name="Automation - Firefox - 0" duration-ms="24807" started-at="2018-12-25T08:53:01Z" finished-at="2018-12-25T08:53:25Z">
+      <class name="JenkinsAutomation.DesktopWebTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:JenkinsAutomation.DesktopWebTest@725bef66]" name="setUp" is-config="true" duration-ms="9601" started-at="2018-12-25T08:53:01Z" finished-at="2018-12-25T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testExperitest()[pri:0, instance:JenkinsAutomation.DesktopWebTest@725bef66]" name="testExperitest" duration-ms="13994" started-at="2018-12-25T08:53:10Z" finished-at="2018-12-25T08:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExperitest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:JenkinsAutomation.DesktopWebTest@725bef66]" name="tearDown" is-config="true" duration-ms="1210" started-at="2018-12-25T08:53:24Z" finished-at="2018-12-25T08:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JenkinsAutomation.DesktopWebTest -->
+    </test> <!-- Automation - Firefox - 0 -->
+    <test name="Automation - Android - 1" duration-ms="50911" started-at="2018-12-25T08:53:00Z" finished-at="2018-12-25T08:53:51Z">
+      <class name="JenkinsAutomation.AndroidTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:JenkinsAutomation.AndroidTest@546a03af]" name="setUp" is-config="true" duration-ms="34855" started-at="2018-12-25T08:53:00Z" finished-at="2018-12-25T08:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="quickStartAndroidNativeDemo()[pri:0, instance:JenkinsAutomation.AndroidTest@546a03af]" name="quickStartAndroidNativeDemo" duration-ms="12180" started-at="2018-12-25T08:53:35Z" finished-at="2018-12-25T08:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickStartAndroidNativeDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:JenkinsAutomation.AndroidTest@546a03af]" name="tearDown" is-config="true" duration-ms="3875" started-at="2018-12-25T08:53:47Z" finished-at="2018-12-25T08:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JenkinsAutomation.AndroidTest -->
+    </test> <!-- Automation - Android - 1 -->
+    <test name="Automation - Internet Explorer - 0" duration-ms="345208" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:57:53Z">
+      <class name="JenkinsAutomation.DesktopWebTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:JenkinsAutomation.DesktopWebTest@2471cca7]" name="setUp" is-config="true" duration-ms="2751" started-at="2018-12-25T08:52:07Z" finished-at="2018-12-25T08:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testExperitest()[pri:0, instance:JenkinsAutomation.DesktopWebTest@2471cca7]" name="testExperitest" duration-ms="342361" started-at="2018-12-25T08:52:10Z" finished-at="2018-12-25T08:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExperitest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:JenkinsAutomation.DesktopWebTest@2471cca7]" name="tearDown" is-config="true" duration-ms="79" started-at="2018-12-25T08:57:53Z" finished-at="2018-12-25T08:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JenkinsAutomation.DesktopWebTest -->
+    </test> <!-- Automation - Internet Explorer - 0 -->
+  </suite> <!-- MySuite -->
+</testng-results>

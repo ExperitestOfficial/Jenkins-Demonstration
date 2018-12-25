@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MySuite">
+              <span class="suite-name border-passed">MySuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MySuite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MySuite">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MySuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MySuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MySuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MySuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MySuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MySuite" class="hide-methods passed suite-MySuite"> (hide)</a> <!-- hide-methods passed suite-MySuite -->
+                      <a href="#" panel-name="suite-MySuite" class="show-methods passed suite-MySuite"> (show)</a> <!-- show-methods passed suite-MySuite -->
+                    </span>
+                    <div class="method-list-content passed suite-MySuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="JenkinsAutomation.AndroidTest" hash-for-method="quickStartAndroidNativeDemo">quickStartAndroidNativeDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="JenkinsAutomation.AndroidTest" hash-for-method="quickStartAndroidNativeDemo">quickStartAndroidNativeDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="JenkinsAutomation.IOSTest" hash-for-method="quickStartiOSNativeDemo">quickStartiOSNativeDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="JenkinsAutomation.IOSTest" hash-for-method="quickStartiOSNativeDemo">quickStartiOSNativeDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="JenkinsAutomation.DesktopWebTest" hash-for-method="testExperitest">testExperitest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="JenkinsAutomation.DesktopWebTest" hash-for-method="testExperitest">testExperitest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="JenkinsAutomation.DesktopWebTest" hash-for-method="testExperitest">testExperitest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MySuite" title="JenkinsAutomation.DesktopWebTest" hash-for-method="testExperitest">testExperitest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MySuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MySuite" class="panel MySuite">
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JenkinsAutomation.IOSTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickStartiOSNativeDemo">
+                  </a> <!-- quickStartiOSNativeDemo -->
+                  <span class="method-name">quickStartiOSNativeDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickStartiOSNativeDemo">
+                  </a> <!-- quickStartiOSNativeDemo -->
+                  <span class="method-name">quickStartiOSNativeDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JenkinsAutomation.AndroidTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickStartAndroidNativeDemo">
+                  </a> <!-- quickStartAndroidNativeDemo -->
+                  <span class="method-name">quickStartAndroidNativeDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickStartAndroidNativeDemo">
+                  </a> <!-- quickStartAndroidNativeDemo -->
+                  <span class="method-name">quickStartAndroidNativeDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JenkinsAutomation.DesktopWebTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExperitest">
+                  </a> <!-- testExperitest -->
+                  <span class="method-name">testExperitest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExperitest">
+                  </a> <!-- testExperitest -->
+                  <span class="method-name">testExperitest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExperitest">
+                  </a> <!-- testExperitest -->
+                  <span class="method-name">testExperitest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExperitest">
+                  </a> <!-- testExperitest -->
+                  <span class="method-name">testExperitest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+        </div> <!-- panel MySuite -->
+        <div panel-name="test-xml-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;10&quot; name=&quot;MySuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;10&quot; name=&quot;Automation - Internet Explorer - 0&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser_name&quot; value=&quot;internet explorer&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JenkinsAutomation.DesktopWebTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation - Internet Explorer - 0 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;10&quot; name=&quot;Automation - Safari - 0&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser_name&quot; value=&quot;safari&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JenkinsAutomation.DesktopWebTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation - Safari - 0 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;10&quot; name=&quot;Automation - Chrome - 0&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser_name&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JenkinsAutomation.DesktopWebTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation - Chrome - 0 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;10&quot; name=&quot;Automation - iOS - 0&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JenkinsAutomation.IOSTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation - iOS - 0 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;10&quot; name=&quot;Automation - iOS - 1&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JenkinsAutomation.IOSTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation - iOS - 1 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;10&quot; name=&quot;Automation - Android - 0&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JenkinsAutomation.AndroidTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation - Android - 0 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;10&quot; name=&quot;Automation - Android - 1&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JenkinsAutomation.AndroidTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation - Android - 1 --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;10&quot; name=&quot;Automation - Firefox - 0&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser_name&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JenkinsAutomation.DesktopWebTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation - Firefox - 0 --&gt;
+&lt;/suite&gt; &lt;!-- MySuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MySuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Automation - Internet Explorer - 0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Automation - Safari - 0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Automation - Chrome - 0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Automation - iOS - 0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Automation - iOS - 1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Automation - Android - 0 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Automation - Android - 1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Automation - Firefox - 0 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MySuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MySuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MySuite');
+function tableData_MySuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testExperitest')
+data.setCell(0, 2, 'JenkinsAutomation.DesktopWebTest')
+data.setCell(0, 3, 342361);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'quickStartiOSNativeDemo')
+data.setCell(1, 2, 'JenkinsAutomation.IOSTest')
+data.setCell(1, 3, 20626);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'quickStartiOSNativeDemo')
+data.setCell(2, 2, 'JenkinsAutomation.IOSTest')
+data.setCell(2, 3, 19195);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testExperitest')
+data.setCell(3, 2, 'JenkinsAutomation.DesktopWebTest')
+data.setCell(3, 3, 13994);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testExperitest')
+data.setCell(4, 2, 'JenkinsAutomation.DesktopWebTest')
+data.setCell(4, 3, 12703);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'quickStartAndroidNativeDemo')
+data.setCell(5, 2, 'JenkinsAutomation.AndroidTest')
+data.setCell(5, 3, 12180);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'quickStartAndroidNativeDemo')
+data.setCell(6, 2, 'JenkinsAutomation.AndroidTest')
+data.setCell(6, 3, 11468);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testExperitest')
+data.setCell(7, 2, 'JenkinsAutomation.DesktopWebTest')
+data.setCell(7, 3, 11424);
+window.suiteTableData['MySuite']= { tableData: data, tableDiv: 'times-div-MySuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-MySuite">
+              </div> <!-- times-div-MySuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MySuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MySuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.IOSTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.DesktopWebTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(internet explorer)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(safari)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testExperitest</span>
+                <span class="method-start">2767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testExperitest</span>
+                <span class="method-start">7038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19744 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.AndroidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20077 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.IOSTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">quickStartiOSNativeDemo</span>
+                <span class="method-start">29006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quickStartiOSNativeDemo</span>
+                <span class="method-start">33953 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.AndroidTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">quickStartAndroidNativeDemo</span>
+                <span class="method-start">37826 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.IOSTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48201 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.AndroidTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49295 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52425 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.DesktopWebTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">53246 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.IOSTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54579 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.DesktopWebTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testExperitest</span>
+                <span class="method-start">60664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testExperitest</span>
+                <span class="method-start">62847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72088 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76842 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.AndroidTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">quickStartAndroidNativeDemo</span>
+                <span class="method-start">87281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99461 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JenkinsAutomation.DesktopWebTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">345129 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [MySuite]" parallel="tests">
+  <test thread-count="5" verbose="10" name="Automation - iOS - 1(failed)" parallel="tests">
+    <classes>
+      <class name="JenkinsAutomation.IOSTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="quickStartiOSNativeDemo"/>
+        </methods>
+      </class> <!-- JenkinsAutomation.IOSTest -->
+    </classes>
+  </test> <!-- Automation - iOS - 1(failed) -->
+  <test thread-count="5" verbose="10" name="Automation - Internet Explorer - 0(failed)" parallel="tests">
+    <parameter name="browser_name" value="internet explorer"/>
+    <classes>
+      <class name="JenkinsAutomation.DesktopWebTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testExperitest"/>
+        </methods>
+      </class> <!-- JenkinsAutomation.DesktopWebTest -->
+    </classes>
+  </test> <!-- Automation - Internet Explorer - 0(failed) -->
+  <test thread-count="5" verbose="10" name="Automation - Chrome - 0(failed)" parallel="tests">
+    <parameter name="browser_name" value="chrome"/>
+    <classes>
+      <class name="JenkinsAutomation.DesktopWebTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testExperitest"/>
+        </methods>
+      </class> <!-- JenkinsAutomation.DesktopWebTest -->
+    </classes>
+  </test> <!-- Automation - Chrome - 0(failed) -->
+  <test thread-count="5" verbose="10" name="Automation - iOS - 0(failed)" parallel="tests">
+    <classes>
+      <class name="JenkinsAutomation.IOSTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="quickStartiOSNativeDemo"/>
+        </methods>
+      </class> <!-- JenkinsAutomation.IOSTest -->
+    </classes>
+  </test> <!-- Automation - iOS - 0(failed) -->
+  <test thread-count="5" verbose="10" name="Automation - Safari - 0(failed)" parallel="tests">
+    <parameter name="browser_name" value="safari"/>
+    <classes>
+      <class name="JenkinsAutomation.DesktopWebTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testExperitest"/>
+        </methods>
+      </class> <!-- JenkinsAutomation.DesktopWebTest -->
+    </classes>
+  </test> <!-- Automation - Safari - 0(failed) -->
+  <test thread-count="5" verbose="10" name="Automation - Firefox - 0(failed)" parallel="tests">
+    <parameter name="browser_name" value="firefox"/>
+    <classes>
+      <class name="JenkinsAutomation.DesktopWebTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testExperitest"/>
+        </methods>
+      </class> <!-- JenkinsAutomation.DesktopWebTest -->
+    </classes>
+  </test> <!-- Automation - Firefox - 0(failed) -->
+  <test thread-count="5" verbose="10" name="Automation - Android - 0(failed)" parallel="tests">
+    <classes>
+      <class name="JenkinsAutomation.AndroidTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="quickStartAndroidNativeDemo"/>
+        </methods>
+      </class> <!-- JenkinsAutomation.AndroidTest -->
+    </classes>
+  </test> <!-- Automation - Android - 0(failed) -->
+  <test thread-count="5" verbose="10" name="Automation - Android - 1(failed)" parallel="tests">
+    <classes>
+      <class name="JenkinsAutomation.AndroidTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="quickStartAndroidNativeDemo"/>
+        </methods>
+      </class> <!-- JenkinsAutomation.AndroidTest -->
+    </classes>
+  </test> <!-- Automation - Android - 1(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
