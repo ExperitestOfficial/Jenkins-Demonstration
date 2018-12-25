@@ -29,7 +29,7 @@ public class IOSTest {
         if(System.getenv("cloud").equals("Sales"))
         	driver = new IOSDriver<>(new URL("https://sales.experitest.com:443/wd/hub"), dc);
         else
-        	driver = new IOSDriver<>(new URL("https://uscloud.experitest.com:443/wd/hub"), dc);
+        	driver = new IOSDriver<>(new URL("https://cloud.seetest.io:443/wd/hub"), dc);
         driver.setLogLevel(Level.INFO);
     }
 
