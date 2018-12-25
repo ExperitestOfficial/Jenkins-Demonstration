@@ -30,7 +30,6 @@
             <configuration>
             		<classpathScope>test</classpathScope>
                     <mainClass>JenkinsAutomation.Main</mainClass>
-                    
                 </configuration>
           </execution>
         </executions>
